@@ -1,0 +1,16 @@
+<litepal>
+
+    <!--数据库名-->
+    <dbname value = "weather"/>
+
+    <!--数据库版本号-->
+    <version value = "1"/>
+
+    <!--建立三个表名-->
+    <list>
+        <mapping class = "com.gmail.wq423.weather.db.City"/>
+        <mapping class = "com.gmail.wq423.weather.db.County"/>
+        <mapping class = "com.gmail.wq423.weather.db.Province"/>
+    </list>
+
+</litepal>
